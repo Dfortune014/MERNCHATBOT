@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:5000/api/v1"; // Ensure this matches your backend base URL
+axios.defaults.baseURL = "http://mern-chatbot.onrender.com"; // Ensure this matches your backend base URL
 
 export const signupUser = async (name: string, email: string, password: string) => {
   const res = await axios.post("/user/signup", { name, email, password });

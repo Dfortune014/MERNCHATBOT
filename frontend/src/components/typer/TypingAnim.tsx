@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 

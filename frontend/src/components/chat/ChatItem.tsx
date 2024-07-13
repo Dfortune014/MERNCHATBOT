@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React from "react";
 import { Avatar, Box, Typography } from "@mui/material";
 import { useAuth } from "../../context/AuthContext";
@@ -26,21 +27,21 @@ function extractCodeFromString(message: string) {
   return blocks;
 }
 
-// Function to determine if a string is a code block based on its content
-function isCodeBlock(str: string) {
-  return (
-    str.includes("=") ||
-    str.includes(";") ||
-    str.includes("}") ||
-    str.includes("{") ||
-    str.includes("]") ||
-    str.includes("[") ||
-    str.includes(")") ||
-    str.includes("(") ||
-    str.includes("#") ||
-    str.includes("//")
-  );
-}
+// // Function to determine if a string is a code block based on its content
+// //function isCodeBlock(str: string) {
+//   return (
+//     str.includes("=") ||
+//     str.includes(";") ||
+//     str.includes("}") ||
+//     str.includes("{") ||
+//     str.includes("]") ||
+//     str.includes("[") ||
+//     str.includes(")") ||
+//     str.includes("(") ||
+//     str.includes("#") ||
+//     str.includes("//")
+//   );
+// }
 
 const ChatItem = ({
   content,

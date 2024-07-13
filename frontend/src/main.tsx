@@ -7,6 +7,11 @@ import { BrowserRouter } from 'react-router-dom'
 import { AuthProvider } from './context/AuthContext.tsx'
 import { Toaster } from 'react-hot-toast'
 import axios from 'axios'
+import { disableReactDevTools } from '@fvilers/disable-react-devtools'
+
+if (process.env.NODE_ENV === 'production') {
+  disableReactDevTools();
+}
 
 axios.defaults.baseURL = "http://localhost:5000/api/v1";
 axios.defaults.withCredentials = true;
