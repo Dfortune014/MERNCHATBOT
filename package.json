@@ -2,9 +2,9 @@
     "name": "mern-chatbot",
     "version": "1.0.0",
     "scripts": {
-        "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\"",
-        "start": "concurrently \"npm start --prefix frontend\" \"npm start --prefix backend\"",
-        "install-all": "npm install --prefix frontend && npm install --prefix backend"
+        "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix Backend\"",
+        "start": "concurrently \"npm start --prefix frontend\" \"npm start --prefix Backend\"",
+        "install-all": "npm install --prefix frontend && npm install --prefix Backend"
     },
     "devDependencies": {
         "concurrently": "^7.6.0"
