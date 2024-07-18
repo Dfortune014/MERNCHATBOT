@@ -5,10 +5,10 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: process.env.PORT || 5173,
-    host: '0.0.0.0',  // This ensures the server is accessible from external IPs
+    port: Number(process.env.PORT) || 5173,
+    host: '0.0.0.0',
   },
   build: {
-    outDir: 'dist',  // Ensure this is set to 'dist'
+    outDir: 'dist',
   },
 })
