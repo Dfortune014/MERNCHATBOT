@@ -56,7 +56,8 @@ This ChatBot application is a modern, AI-powered platform designed to provide an
 1. **Clone the repository:**
     ```bash
     git clone https://github.com/Dfortune014/MERNCHATBOT.git
-    cd chatbot-application
+    cd MERNCHATBOT
+
     ```
 
 2. **Install backend dependencies:**
