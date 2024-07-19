@@ -74,19 +74,14 @@ This ChatBot application is a modern, AI-powered platform designed to provide an
 
 ### Running the Application
 
-1. **Start the MongoDB server:**
-    Ensure that MongoDB is running on your system. You can start the MongoDB server using the following command if it's installed locally:
-    ```bash
-    mongod
-    ```
 
-2. **Start the backend server:**
+1. **Start the backend server:**
     ```bash
-    cd backend
+    cd Backend
     npm run dev
     ```
 
-3. **Start the frontend server:**
+2. **Start the frontend server:**
     ```bash
     cd ../frontend
     npm run dev
